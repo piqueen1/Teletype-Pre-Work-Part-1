@@ -40,12 +40,20 @@ h1 {
 */
 
 /* Your CSS code goes here */
-.replica {
+.replica-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 630px;
+	margin: 2m auto;
+	text-align: center;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+.replica-rectangle {
 	display: flex;
 	flex-direction: column;
 	max-width: 260px;
-	margin: 0 auto;
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	align-content: center;
 }
 
 .replica-header {
