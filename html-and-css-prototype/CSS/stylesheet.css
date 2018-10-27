@@ -40,3 +40,21 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.replica {
+	display: flex;
+	flex-direction: column;
+	max-width: 260px;
+	margin: 0 auto;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+.replica-header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: #424242;
+	color: white;
+	height: 50px;
+	text-align: center;
+	justify-content: center;
+}
