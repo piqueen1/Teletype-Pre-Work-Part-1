@@ -44,25 +44,36 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	max-width: 630px;
-	margin: 2m auto;
+	margin: 0 auto;
 	text-align: center;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	align-items: center;
 }
 
 .replica-rectangle {
 	display: flex;
 	flex-direction: column;
 	max-width: 260px;
-	align-content: center;
+	height: 320px;
+	font-size: 11.5px;
+	justify-content: space-evenly;
 }
 
 .replica-header {
 	position: relative;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	background-color: #424242;
 	color: white;
-	height: 50px;
-	text-align: center;
+	font-size: 12px;
+	height: 45px;
+	align-items: center;
 	justify-content: center;
+	border-radius: 3px;
 }
+
+.amount-needed {
+	font-weight: bold;
+}
+
+
