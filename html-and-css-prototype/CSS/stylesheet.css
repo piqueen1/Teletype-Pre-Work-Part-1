@@ -56,6 +56,7 @@ h1 {
 	max-width: 260px;
 	height: 320px;
 	font-size: 11.5px;
+	margin-top: 15px;
 }
 
 .replica-header {
@@ -64,15 +65,28 @@ h1 {
 	flex-direction: row;
 	background-color: #424242;
 	color: white;
-	font-size: 12px;
+	font-size: 12.5px;
 	height: 45px;
 	align-items: center;
 	justify-content: center;
 	border-radius: 3px;
+	margin-bottom: 10px;
 }
 
 .amount-needed {
 	font-weight: bold;
+	margin-right: 3px;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+}
+
+.carrot {
+	position: absolute;
+	bottom: -3.75px;
+	right: 35px;
+	height: 7.5px;
+	width: 7.5px;
+	background-color: #424242;
+	transform: rotate(45deg);
 }
 
 .replica-body {
@@ -82,29 +96,85 @@ h1 {
 	text-align: left;
 	border: 1px;
 	border-style: solid;
-	border-color: #777;
+	border-color: #E8E8E8;
+	padding: 20px;
 }
 
 .progress-bar {
 	height: 10px;
-	border: .5px;
-	border-color: #777;
+	display: flex;
+	flex-direction: row;
+	background: #FAFAFA;
+	width: calc(100% + 40px);
+	margin-left: -20px;
+	margin-top: -20px;
+	margin-bottom: 12px;
+}
+
+.progress-bar-orange {
+	background-color: #EF5F3C;
+	height: 100%;
+	width: 190px;
+}
+
+.progress-bar-grey {
+	flex-grow: 1;
+	height: 100%;
+	border-bottom: 1px solid #E8E8E8;
 }
 
 .rep-body-text {
+	margin-bottom: 12px;
+	letter-spacing: .35px;
+	color: #616161;
+}
 
+.orange-text {
+	color: #EF5F3C;
+	font-weight: 900;
+}
+
+.number {
+	font-weight: bold;
 }
 
 .amount-give {
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 50px;
+	width: 100%;
 }
 
 .amount {
+	border: 2px;
+	border-style: solid;
+	border-color: #E8E8E8;
+	border-radius: 3px;
+	height: 45px;
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #828282;
+	padding-left: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
 
+.amount span {
+	color: #444444;
+	margin-left: 3px;
 }
 
 .give {
-
+	border-radius: 3px;
+	height: 45px;
+	width: 100px;
+	color: white;
+	background-color: #1CBC2C;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 .purpose {
